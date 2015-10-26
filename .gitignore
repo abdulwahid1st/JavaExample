@@ -13,5 +13,5 @@ hs_err_pid*
 
 #abdul add
 target/
-log/
+#log
 *log
