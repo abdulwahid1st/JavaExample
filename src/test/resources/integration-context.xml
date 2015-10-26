@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:int="http://www.springframework.org/schema/integration"
+       xmlns:file="http://www.springframework.org/schema/integration/file"
+       xmlns:stream="http://www.springframework.org/schema/integration/stream"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+    http://www.springframework.org/schema/integration/file http://www.springframework.org/schema/integration/file/spring-integration-file.xsd
+    http://www.springframework.org/schema/integration/stream http://www.springframework.org/schema/integration/stream/spring-integration-stream.xsd
+    ">
+    
+    <file:inbound-channel-adapter auto-create-directory="true" channel="filesIn"
+                                  directory="#{systemProperties['user.home']}/Desktop/in"
+                                  prevent-duplicates="false">
+        <int:poller fixed-rate="2000"/>
+    </file:inbound-channel-adapter>
+
+	<int:service-activator input-channel="filesIn" ref="fileBatchRequestTransformer" requires-reply="false" output-channel="filesOut" />
+	
+	<!-- convert to string -->
+<!-- 	<file:file-to-string-transformer input-channel="filesIn" output-channel="strings"/> -->
+<!-- 	<int:channel id="strings"/> -->
+<!-- 	<int:service-activator input-channel="strings" ref="fileBatchRequestTransformer" requires-reply="false"  output-channel="filesOut"/> -->
+	
+	<!-- convert to bytes -->
+<!-- 	<file:file-to-bytes-transformer input-channel="filesIn" output-channel="bytes" delete-files="true"/>  -->
+<!-- 	<int:channel id="bytes"/> -->
+<!-- 	<int:service-activator input-channel="bytes" ref="fileBatchRequestTransformer" requires-reply="false" output-channel="filesOut"/> -->
+	
+	
+	<file:outbound-channel-adapter id="filesOut"
+							   directory="#{systemProperties['user.home']}/Desktop/out"
+							   filename-generator-expression="payload.getName()+'.result'"
+							   auto-create-directory="true" />
+</beans>

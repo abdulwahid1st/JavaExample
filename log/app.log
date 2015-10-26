@@ -1,0 +1,830 @@
+2015-10-04 10:17:43 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:18:22 DEBUG FileBatchRequestTransformer:35 - a new file has appeared (/home/abdul/Desktop/in/tes.html).
+2015-10-04 10:18:22 DEBUG FileBatchRequestTransformer:37 - header timestamp = 1443928702123
+2015-10-04 10:18:22 DEBUG FileBatchRequestTransformer:37 - header id = 88c99400-a13b-3aca-e2d4-58586cdefafd
+2015-10-04 10:18:22 ERROR LoggingHandler:145 - org.springframework.integration.handler.ReplyRequiredException: No reply produced by handler 'null', and its 'requiresReply' property is set to true.
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:109)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+2015-10-04 10:21:55 DEBUG FileBatchRequestTransformer:35 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:21:55 DEBUG FileBatchRequestTransformer:37 - header timestamp = 1443928915106
+2015-10-04 10:21:55 DEBUG FileBatchRequestTransformer:37 - header id = abe6e6f8-33c8-73b4-9785-63c362a9dab2
+2015-10-04 10:21:55 ERROR LoggingHandler:145 - org.springframework.integration.handler.ReplyRequiredException: No reply produced by handler 'null', and its 'requiresReply' property is set to true.
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:109)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+2015-10-04 10:22:10 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:22:10 DEBUG FileBatchRequestTransformer:35 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:22:10 DEBUG FileBatchRequestTransformer:37 - header timestamp = 1443928930839
+2015-10-04 10:22:10 DEBUG FileBatchRequestTransformer:37 - header id = 620b5cd5-18b2-f330-342a-7aa636a939d3
+2015-10-04 10:22:10 ERROR LoggingHandler:145 - org.springframework.integration.handler.ReplyRequiredException: No reply produced by handler 'null', and its 'requiresReply' property is set to true.
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:109)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+2015-10-04 10:32:43 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:32:44 DEBUG FileBatchRequestTransformer:35 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:32:44 DEBUG FileBatchRequestTransformer:37 - header timestamp = 1443929564618
+2015-10-04 10:32:44 DEBUG FileBatchRequestTransformer:37 - header id = 5ae71606-7bbf-f790-f810-e4aaac0aff63
+2015-10-04 10:35:37 DEBUG FileBatchRequestTransformer:35 - a new file has appeared (/home/abdul/Desktop/in/t).
+2015-10-04 10:35:37 DEBUG FileBatchRequestTransformer:37 - header timestamp = 1443929737615
+2015-10-04 10:35:37 DEBUG FileBatchRequestTransformer:37 - header id = c08fbb33-8bb9-f13b-b262-790ff162be2d
+2015-10-04 10:40:23 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:37 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:41 - COL1,COL2,COL3
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:41 - a,b,c
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:41 - d,e,f
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:44 - header timestamp = 1443930023954
+2015-10-04 10:40:23 DEBUG FileBatchRequestTransformer:44 - header id = 42aefcf0-bed7-e6f5-cfa1-baf069a9f214
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:37 - a new file has appeared (/home/abdul/Desktop/in/t).
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:41 - COL1,COL2,COL3
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:41 - a,b,c
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:41 - d,e,f
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:44 - header timestamp = 1443930024951
+2015-10-04 10:40:24 DEBUG FileBatchRequestTransformer:44 - header id = c3bd1599-f55d-1d62-65fe-780167f59266
+2015-10-04 10:52:26 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:52:27 DEBUG FileBatchRequestTransformer:47 - @@@@ ->COL1,COL2,COL3
+a,b,c
+d,e,f
+
+2015-10-04 10:52:28 DEBUG FileBatchRequestTransformer:47 - @@@@ ->COL1,COL2,COL3
+a,b,c
+d,e,f
+
+2015-10-04 10:53:06 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:53:07 DEBUG FileBatchRequestTransformer:47 - @@@@ ->[Ljava.lang.String;@6aed299a
+2015-10-04 10:53:08 DEBUG FileBatchRequestTransformer:47 - @@@@ ->[Ljava.lang.String;@606bba7a
+2015-10-04 10:53:49 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:53:50 DEBUG FileBatchRequestTransformer:47 - @@@@ ->COL1,COL2,COL3
+2015-10-04 10:53:51 DEBUG FileBatchRequestTransformer:47 - @@@@ ->COL1,COL2,COL3
+2015-10-04 10:55:09 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:34 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:35 - a new file has appeared ({timestamp=1443930910168, id=d824f3a0-a7a8-007a-8734-4a3c0280eae3}).
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:39 - COL1,COL2,COL3
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:39 - a,b,c
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:39 - d,e,f
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:42 - header timestamp = 1443930910168
+2015-10-04 10:55:10 DEBUG FileBatchRequestTransformer:42 - header id = d824f3a0-a7a8-007a-8734-4a3c0280eae3
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:34 - a new file has appeared (/home/abdul/Desktop/in/t).
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:35 - a new file has appeared ({timestamp=1443930911164, id=7a838b98-3035-0610-131c-636a20edc1a6}).
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:39 - COL1,COL2,COL3
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:39 - a,b,c
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:39 - d,e,f
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:42 - header timestamp = 1443930911164
+2015-10-04 10:55:11 DEBUG FileBatchRequestTransformer:42 - header id = 7a838b98-3035-0610-131c-636a20edc1a6
+2015-10-04 10:56:05 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:34 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:35 - a new file has appeared ({timestamp=1443930966420, id=5ff382bb-98cc-509f-0e11-683ebfe77c44}).
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:39 - COL1,COL2,COL3
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:39 - a,b,c
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:39 - d,e,f
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:42 - header timestamp = 1443930966420
+2015-10-04 10:56:06 DEBUG FileBatchRequestTransformer:42 - header id = 5ff382bb-98cc-509f-0e11-683ebfe77c44
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:34 - a new file has appeared (/home/abdul/Desktop/in/t).
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:35 - a new file has appeared ({timestamp=1443930967416, id=d326655e-5b6a-0e6a-bc34-1710044d3d36}).
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:39 - COL1,COL2,COL3
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:39 - a,b,c
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:39 - d,e,f
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:42 - header timestamp = 1443930967416
+2015-10-04 10:56:07 DEBUG FileBatchRequestTransformer:42 - header id = d326655e-5b6a-0e6a-bc34-1710044d3d36
+2015-10-04 10:56:31 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 10:56:32 WARN  AnnotationConfigApplicationContext:544 - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.integration.config.ServiceActivatorFactoryBean#0': Cannot resolve reference to bean 'fileBatchRequestTransformer' while setting bean property 'targetObject'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'fileBatchRequestTransformer' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:84)
+	at com.enawe.example.MainIntegration.main(MainIntegration.java:24)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'fileBatchRequestTransformer' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:283)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 14 more
+2015-10-04 11:12:16 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443931937254
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:40 - header id = 5bc91073-e9e3-2a9a-01cf-c4b01d484830
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:46 - COL1,COL2,COL3
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:46 - a,b,c
+2015-10-04 11:12:17 DEBUG FileBatchRequestTransformer:46 - d,e,f
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/t).
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443931938249
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:40 - header id = 0f337b24-0449-10af-1609-b28303a26b1c
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:46 - COL1,COL2,COL3
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:46 - a,b,c
+2015-10-04 11:12:18 DEBUG FileBatchRequestTransformer:46 - d,e,f
+2015-10-04 11:15:04 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932116251
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:40 - header id = 11fdc8e2-ff5b-401b-f359-70f79acdfdcc
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:46 - COL1,COL2,COL3
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:46 - a,b,c
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:46 - d,e,f
+2015-10-04 11:15:16 DEBUG FileBatchRequestTransformer:50 - 
+2015-10-04 11:16:25 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932186664
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:40 - header id = 05c121c0-8156-1d53-fb6c-0e7a5d9e0dac
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:46 - COL1,COL2,COL3
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:46 - a,b,c
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:46 - d,e,f
+2015-10-04 11:16:26 DEBUG FileBatchRequestTransformer:50 - @@@ OUT-
+2015-10-04 11:17:28 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:17:38 DEBUG FileBatchRequestTransformer:64 - @@@@ ->COL1,COL2,COL3
+2015-10-04 11:18:19 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:18:28 DEBUG FileBatchRequestTransformer:70 - @@@@ ->27
+2015-10-04 11:19:54 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932405093
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:40 - header id = d674ece6-e513-d391-e54d-79fcee5661c5
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:47 - COL1,COL2,COL3
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:47 - a,b,c
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:47 - d,e,f
+2015-10-04 11:20:05 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:06 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT).
+2015-10-04 11:20:06 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932406088
+2015-10-04 11:20:06 DEBUG FileBatchRequestTransformer:40 - header id = 537c520b-f167-ac12-53ec-84eee2a5dfd9
+2015-10-04 11:20:06 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:07 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT).
+2015-10-04 11:20:07 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932407087
+2015-10-04 11:20:07 DEBUG FileBatchRequestTransformer:40 - header id = 04eddf6a-66de-bc37-620e-081883169983
+2015-10-04 11:20:07 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:08 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT).
+2015-10-04 11:20:08 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932408088
+2015-10-04 11:20:08 DEBUG FileBatchRequestTransformer:40 - header id = ee92ddc9-a156-b600-d79f-a2a3a8d917c4
+2015-10-04 11:20:08 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:09 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:09 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932409088
+2015-10-04 11:20:09 DEBUG FileBatchRequestTransformer:40 - header id = bb2828f7-d1a3-de0d-b8d5-73a7176a9bc0
+2015-10-04 11:20:09 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:10 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:10 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932410088
+2015-10-04 11:20:10 DEBUG FileBatchRequestTransformer:40 - header id = 39089a59-7ab3-a280-d192-58760f57f40d
+2015-10-04 11:20:10 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:11 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:11 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932411087
+2015-10-04 11:20:11 DEBUG FileBatchRequestTransformer:40 - header id = db6acad1-f303-f863-31dc-e1dfbfde1ebf
+2015-10-04 11:20:11 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:12 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:12 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932412087
+2015-10-04 11:20:12 DEBUG FileBatchRequestTransformer:40 - header id = 363a446f-e96a-064a-aa5d-f5d7cc58a621
+2015-10-04 11:20:12 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:13 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:13 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932413087
+2015-10-04 11:20:13 DEBUG FileBatchRequestTransformer:40 - header id = 8570967a-da2b-d441-54fe-496bcf701baa
+2015-10-04 11:20:13 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:14 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:14 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932414087
+2015-10-04 11:20:14 DEBUG FileBatchRequestTransformer:40 - header id = 2609e05f-9b5e-ee24-0a85-329ad53027d2
+2015-10-04 11:20:14 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:15 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:15 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932415087
+2015-10-04 11:20:15 DEBUG FileBatchRequestTransformer:40 - header id = 1b81b917-d3a5-4782-eb4c-68afdddb0491
+2015-10-04 11:20:15 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:16 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:16 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932416087
+2015-10-04 11:20:16 DEBUG FileBatchRequestTransformer:40 - header id = 8ae79dc6-7d35-c718-da09-c8ec5e986ca6
+2015-10-04 11:20:16 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:17 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:17 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932417088
+2015-10-04 11:20:17 DEBUG FileBatchRequestTransformer:40 - header id = 3e7e356d-6a29-42e9-ff9c-32f4beea3827
+2015-10-04 11:20:17 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:18 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:18 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932418087
+2015-10-04 11:20:18 DEBUG FileBatchRequestTransformer:40 - header id = 23ea23ae-bc2b-d964-44f9-0327dbff509a
+2015-10-04 11:20:18 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:20:19 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:20:19 DEBUG FileBatchRequestTransformer:40 - header timestamp = 1443932419087
+2015-10-04 11:20:19 DEBUG FileBatchRequestTransformer:40 - header id = cdf33be0-6d6b-f421-d917-d25286c7a17b
+2015-10-04 11:20:19 DEBUG FileBatchRequestTransformer:51 - @@@ OUT-
+2015-10-04 11:25:06 DEBUG MainIntegration:25 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:28:02 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:28:02 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:02 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:02 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932882967
+2015-10-04 11:28:02 DEBUG FileBatchRequestTransformer:41 - header id = f4b46c81-4595-08e9-b8fe-14878b8852de
+2015-10-04 11:28:02 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:28:04 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:04 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:04 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932884964
+2015-10-04 11:28:04 DEBUG FileBatchRequestTransformer:41 - header id = 870f8d5b-9418-c50b-2cf4-7797e2e249c4
+2015-10-04 11:28:04 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:28:06 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:06 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:06 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932886963
+2015-10-04 11:28:06 DEBUG FileBatchRequestTransformer:41 - header id = 4db18452-b184-13bc-38f6-c1b7a01d3b27
+2015-10-04 11:28:06 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:28:08 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:08 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:08 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932888963
+2015-10-04 11:28:08 DEBUG FileBatchRequestTransformer:41 - header id = 38ed6384-a9a6-d86f-9e84-5e93cfe0cc25
+2015-10-04 11:28:08 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:28:10 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:10 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:10 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932890963
+2015-10-04 11:28:10 DEBUG FileBatchRequestTransformer:41 - header id = ee453ba3-2f53-d9dd-f7b7-29ffbf5e5568
+2015-10-04 11:28:10 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:28:12 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:28:12 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT.RESULT).
+2015-10-04 11:28:12 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443932892964
+2015-10-04 11:28:12 DEBUG FileBatchRequestTransformer:41 - header id = 4b30c643-1837-2e35-2e08-13d982d87f95
+2015-10-04 11:28:12 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:29:54 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933002810
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:41 - header id = b991f234-4774-bdda-e332-c8f539e8433a
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:48 - COL1,COL2,COL3
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:48 - a,b,c
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:48 - d,e,f
+2015-10-04 11:30:02 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-COL1,COL2,COL3,SUCCESS\na,b,c,SUCCESS\nd,e,f,SUCCESS\n
+2015-10-04 11:30:04 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:30:04 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT).
+2015-10-04 11:30:04 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933004793
+2015-10-04 11:30:04 DEBUG FileBatchRequestTransformer:41 - header id = 128ad232-9f86-c0b6-5b9b-c6a2e5f82d0a
+2015-10-04 11:30:04 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:30:06 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:30:06 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv.RESULT.RESULT).
+2015-10-04 11:30:06 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933006793
+2015-10-04 11:30:06 DEBUG FileBatchRequestTransformer:41 - header id = 5e8e3822-248f-2842-76cb-c646769a6aab
+2015-10-04 11:30:06 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-
+2015-10-04 11:32:25 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:32:26 DEBUG FileBatchRequestTransformer:66 - @@@@ ->
+2015-10-04 11:32:26 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: error occurred in message handler [org.springframework.integration.file.FileWritingMessageHandler@6aed299a]; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'result' cannot be found on object of type 'org.springframework.messaging.support.GenericMessage' - maybe not public?
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:139)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'result' cannot be found on object of type 'org.springframework.messaging.support.GenericMessage' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:81)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:166)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:154)
+	at org.springframework.integration.file.DefaultFileNameGenerator.generateFileName(DefaultFileNameGenerator.java:76)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:290)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	... 57 more
+
+2015-10-04 11:33:03 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:33:04 DEBUG FileBatchRequestTransformer:66 - @@@@ ->
+2015-10-04 11:33:04 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: error occurred in message handler [org.springframework.integration.file.FileWritingMessageHandler@27c8bfa4]; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 8): Property or field 'name' cannot be found on object of type 'java.lang.String' - maybe not public?
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:139)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 8): Property or field 'name' cannot be found on object of type 'java.lang.String' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.OpPlus.getValueInternal(OpPlus.java:83)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:166)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:154)
+	at org.springframework.integration.file.DefaultFileNameGenerator.generateFileName(DefaultFileNameGenerator.java:76)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:290)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	... 57 more
+
+2015-10-04 11:33:27 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:33:28 DEBUG FileBatchRequestTransformer:66 - @@@@ ->
+2015-10-04 11:33:28 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: error occurred in message handler [org.springframework.integration.file.FileWritingMessageHandler@48dd0a33]; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1004E:(pos 8): Method call: Method getName() cannot be found on java.lang.String type
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:139)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1004E:(pos 8): Method call: Method getName() cannot be found on java.lang.String type
+	at org.springframework.expression.spel.ast.MethodReference.findAccessorForMethod(MethodReference.java:211)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:125)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.OpPlus.getValueInternal(OpPlus.java:83)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:166)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:154)
+	at org.springframework.integration.file.DefaultFileNameGenerator.generateFileName(DefaultFileNameGenerator.java:76)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:290)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	... 57 more
+
+2015-10-04 11:33:45 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:33:46 DEBUG FileBatchRequestTransformer:66 - @@@@ ->
+2015-10-04 11:34:10 DEBUG FileBatchRequestTransformer:66 - @@@@ ->COL1,COL2,COL3
+2015-10-04 11:36:07 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933368226
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:41 - header id = e62e035f-b6e4-f0ba-fa19-5606fbf04dd1
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:48 - COL1,COL2,COL3
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:48 - a,b,c
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:48 - d,e,f
+2015-10-04 11:36:08 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-COL1,COL2,COL3,SUCCESS\na,b,c,SUCCESS\nd,e,f,SUCCESS\n
+2015-10-04 11:36:08 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: ; nested exception is java.io.FileNotFoundException: /tmpdummy.csv (Permission denied)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:96)
+	at org.springframework.integration.handler.ServiceActivatingHandler.handleRequestMessage(ServiceActivatingHandler.java:89)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.FileNotFoundException: /tmpdummy.csv (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at com.enawe.component.modules.FileBatchRequestTransformer.doProcess(FileBatchRequestTransformer.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:166)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.processInternal(MessagingMethodInvokerHelper.java:317)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.process(MessagingMethodInvokerHelper.java:155)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:93)
+	... 32 more
+
+2015-10-04 11:36:31 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933392525
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:41 - header id = dd484802-39e9-3c7e-b106-e94b71b0812b
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:48 - COL1,COL2,COL3
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:48 - a,b,c
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:48 - d,e,f
+2015-10-04 11:36:32 DEBUG FileBatchRequestTransformer:52 - @@@ OUT-COL1,COL2,COL3,SUCCESS\na,b,c,SUCCESS\nd,e,f,SUCCESS\n
+2015-10-04 11:36:32 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: failed to write Message payload to file; nested exception is java.io.FileNotFoundException: /home/abdul/Desktop/out/tmp/dummy.csv.result.writing (No such file or directory)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:331)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.FileNotFoundException: /home/abdul/Desktop/out/tmp/dummy.csv.result.writing (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleInputStreamMessage(FileWritingMessageHandler.java:422)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleFileMessage(FileWritingMessageHandler.java:376)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:311)
+	... 45 more
+
+2015-10-04 11:39:42 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933603559
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:41 - header id = 50d181d7-581b-ea0a-39ec-327443206c26
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:40:03 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:40:03 ERROR LoggingHandler:145 - org.springframework.messaging.MessageHandlingException: failed to write Message payload to file; nested exception is java.io.FileNotFoundException: /home/abdul/Desktop/out/tmp/dummy.csv.result.writing (No such file or directory)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:331)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutput(AbstractMessageProducingHandler.java:231)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.produceOutput(AbstractMessageProducingHandler.java:154)
+	at org.springframework.integration.handler.AbstractMessageProducingHandler.sendOutputs(AbstractMessageProducingHandler.java:102)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:105)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:115)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:45)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:105)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:161)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:251)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:57)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:176)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:173)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:330)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:51)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:324)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.FileNotFoundException: /home/abdul/Desktop/out/tmp/dummy.csv.result.writing (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleInputStreamMessage(FileWritingMessageHandler.java:422)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleFileMessage(FileWritingMessageHandler.java:376)
+	at org.springframework.integration.file.FileWritingMessageHandler.handleRequestMessage(FileWritingMessageHandler.java:311)
+	... 45 more
+
+2015-10-04 11:41:13 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933684074
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:41 - header id = d1b9fbde-d5f3-c371-904d-7a48d849f179
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:41:24 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy2.csv).
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933720071
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:41 - header id = 9be2d123-8fa9-af3e-184b-810a85f525e5
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:42:00 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy3.csv).
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933748071
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:41 - header id = 802104e0-b691-d860-5052-30f8d6e82cba
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:42:28 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:43:19 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933800003
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:41 - header id = 58698a0e-ec4a-7ed7-bc01-73b04cb86001
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:43:20 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:43:53 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933846514
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:41 - header id = 4a97b271-c3eb-644f-db8a-02086d52d189
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:44:06 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:46:20 DEBUG MainIntegration:23 - @@@@@@@@@@@@@@@@@@ START
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933990794
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:41 - header id = 6f7fd914-838d-cf4e-37df-defa647091b0
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:46:30 DEBUG FileBatchRequestTransformer:52 - d,e,f
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:38 - a new file has appeared (/home/abdul/Desktop/in).
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:39 - a new file has appeared (/home/abdul/Desktop/in/dummy.csv).
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:41 - header timestamp = 1443933994778
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:41 - header id = 2ff9b9aa-e355-b750-9149-d93a7c4491da
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:52 - COL1,COL2,COL3
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:52 - a,b,c
+2015-10-04 11:46:34 DEBUG FileBatchRequestTransformer:52 - d,e,f
